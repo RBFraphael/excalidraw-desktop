@@ -4,12 +4,10 @@ import { AppState, BinaryFiles } from "@excalidraw/excalidraw/types/types";
 import { useEffect, useState } from "react";
 
 function App(): JSX.Element {
-  const ipcHandle = (): void => window.electron.ipcRenderer.send('ping');
-
   const [theme, setTheme] = useState<Theme>(THEME.LIGHT);
   const [render, setRender] = useState<boolean>(false);
 
-  const onCanvasChange = (el: readonly ExcalidrawElement[], state: AppState, files: BinaryFiles) => {
+  const onCanvasChange = (_: readonly ExcalidrawElement[], state: AppState, __: BinaryFiles) => {
     const newTheme = state.theme;
     if(newTheme !== theme){
         localStorage.setItem("theme", newTheme);
