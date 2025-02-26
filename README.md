@@ -1,10 +1,10 @@
 # Excalidraw Desktop
 
-It's nothing but Excalidraw, running 100% offline on your machine.
+It's nothing but Excalidraw, running 100% offline on your machine. For Linux, macOS and Windows.
 
 ![Excalidraw Desktop](/resources/screenshot.png)
 
-Built with [electron-vite](https://electron-vite.org/).
+Built with [electron-vite](https://electron-vite.org/) and [Node 22](https://nodejs.org/).
 
 ## Project Setup
 

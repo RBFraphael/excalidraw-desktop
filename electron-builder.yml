@@ -13,7 +13,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: excalidraw-desktop-electron
+  executableName: excalidraw-desktop
   target: ["dir", "portable", "zip"]
   icon: "resources/icon.ico"
 nsis:
