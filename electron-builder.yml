@@ -37,6 +37,7 @@ linux:
   target:
     - AppImage
     - snap
+    - flatpak
     - deb
     - zip
     - dir
