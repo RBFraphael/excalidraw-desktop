@@ -46,6 +46,9 @@ linux:
   icon: "resources/icon.png"
 appImage:
   artifactName: ${name}-${version}.${ext}
+flatpak:
+  baseVersion: "24.08"
+  runtimeVersion: "24.08"
 npmRebuild: false
 publish:
   provider: generic
